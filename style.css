@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family:'Poppins', sans-serif;
+}
+
+body {
+    position: relative;
+    background: #01334E;
+    min-height: 100vh;
+    border: 0;
+    margin: 0;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 3vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2em;
+    color: #7999A3;
+    pointer-events: none;
+    margin-right: 95vh;
+}
+.navigation{
+    position: fixed;
+    right: 3vh;
+
+}
+.navigation a{ 
+    text-decoration: none;
+    color: #7999A3;
+    border-radius: 20px;
+    padding: 0 15px;
+    font-weight: 600;
+    margin: 30px;
+}
+.navigation a:hover {
+    background-color: #7999A3;
+    color: #fff;
+
+}
+.navigation a.active {
+    background-color: #7999A3;
+    color: #fff;
+}
+
+.parallax {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#text {
+    position: absolute;
+    top: 45vh;
+    font-size: 8em;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .9);
+}
+
+.parallax img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.sec{
+    position: relative;
+    background: #01334E;
+    padding-top: 0;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.sec h2 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.sec p {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+    
+}
